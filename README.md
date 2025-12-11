@@ -113,4 +113,31 @@
 - the second column is the protein locus tag (from file S3)
 
 ### Supplementary file S5: output of HMM search of all neighbours genes. 
-- HMMER3 tabular output format 
+- HMMER3 tabular output format
+
+### Supplementary file S6: microscopy data for all cells used in figure 7. 
+<details>
+  <summary>for more details about the columns:</summary>
+this CSV file contains all data for all cells used in microscopy analysis of figure 7. Each row contains the data of one cell. 
+- First few columns indicate the strain, the biological replicate and the field of view used. 
+  
+- Area is the area (in phase contrast) of the bacterial cell in pixels,
+- Circularity describes how round a cell is, with 1 being a perfect circle. Dividing cells tend to have a lower circularity
+- columns named 1-100 are the strechted to 100 points and normalized value to the maxima (per cell) of fluorescence around the perimeter
+- raw_fluo is the raw fluorescence value for each pixel in the perimeter in a continuous order.
+- intersections indicate values corresponding to the two "poles" where the perimeter interacts with the cell long axis. 
+
+</details>
+
+### Supplementary file S7:  average microscopy values used in figure 7. 
+<details>
+  <summary>for more details about the columns:</summary>
+this excel file contains all data for all cells used in microscopy analysis of figure 7. Each row contains the data of one field of view. 
+- First few columns indicate the strain, the biological replicate and the field of view (image) used. 
+- raw_fluo is the average raw fluorescence values for each image 
+- ratio poles septum is the average value for each image calculated using the formula described in figure 7. 
+
+</details>
+
+
+  
