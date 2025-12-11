@@ -2,8 +2,7 @@
 
 ### Supplementary file S1: list of TAAs found in the interpro database, with their associated sequence.  
 <details>
-  <summary>contains the following informations:</summary>
-
+  <summary>for more details about the columns:</summary>
 
 
 - accession: the accession number in the UniProt Database 
